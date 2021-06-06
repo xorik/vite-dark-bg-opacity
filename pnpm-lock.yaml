@@ -3,14 +3,14 @@ lockfileVersion: 5.3
 specifiers:
   typescript: ^4.2.3
   vite: ^2.3.3
-  vite-plugin-windicss: ^0.16.0
-  windicss: ^3.0.12
+  vite-plugin-windicss: ^1.0.1
+  windicss: ^3.1
 
 devDependencies:
   typescript: 4.2.4
   vite: 2.3.3
-  vite-plugin-windicss: 0.16.0_vite@2.3.3
-  windicss: 3.0.12
+  vite-plugin-windicss: 1.0.1_vite@2.3.3
+  windicss: 3.1.1
 
 packages:
 
@@ -18,37 +18,37 @@ packages:
     resolution: {integrity: sha512-1lcCCEOv4gYlYa/OCjM2JA5nbNll04mNMhSXYu4QetbG14m3LdCvkyDAPlc2AmqRQEqkKpJldRL++9sPpOIydw==}
     dev: true
 
-  /@nodelib/fs.scandir/2.1.4:
-    resolution: {integrity: sha512-33g3pMJk3bg5nXbL/+CY6I2eJDzZAni49PfJnL5fghPTggPvBd/pFNSgJsdAgWptuFu7qq/ERvOYFlhvsLTCKA==}
+  /@nodelib/fs.scandir/2.1.5:
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
     dependencies:
-      '@nodelib/fs.stat': 2.0.4
+      '@nodelib/fs.stat': 2.0.5
       run-parallel: 1.2.0
     dev: true
 
-  /@nodelib/fs.stat/2.0.4:
-    resolution: {integrity: sha512-IYlHJA0clt2+Vg7bccq+TzRdJvv19c2INqBSsoOLp1je7xjtr7J26+WXR72MCdvU9q1qTzIWDfhMf+DRvQJK4Q==}
+  /@nodelib/fs.stat/2.0.5:
+    resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==}
     engines: {node: '>= 8'}
     dev: true
 
-  /@nodelib/fs.walk/1.2.6:
-    resolution: {integrity: sha512-8Broas6vTtW4GIXTAHDoE32hnN2M5ykgCpWGbuXHQ15vEMqr23pB76e/GZcYsZCHALv50ktd24qhEyKr6wBtow==}
+  /@nodelib/fs.walk/1.2.7:
+    resolution: {integrity: sha512-BTIhocbPBSrRmHxOAJFtR18oLhxTtAFDAvL8hY1S3iU8k+E60W/YFs4jrixGzQjMpF4qPXxIQHcjVD9dz1C2QA==}
     engines: {node: '>= 8'}
     dependencies:
-      '@nodelib/fs.scandir': 2.1.4
+      '@nodelib/fs.scandir': 2.1.5
       fastq: 1.11.0
     dev: true
 
-  /@windicss/plugin-utils/0.16.0:
-    resolution: {integrity: sha512-Gu6iHqFnqfxE0J8Oa74+2W5L2052ptqEHBtPaOuXOFgIMTJAT2KoXb6v+/Z0ldHsxVC1q+MSsom877SJ0cL2iA==}
+  /@windicss/plugin-utils/1.0.1:
+    resolution: {integrity: sha512-EHsGC9LGHC/3rWNiOHzkgkexwgmxfHsqvxBoh0hLJv1MPPhEsKv8dQbt34pVZgRsS/rAjiVe4bRRM5NLTy8cWA==}
     dependencies:
       '@antfu/utils': 0.1.6
       debug: 4.3.2
       fast-glob: 3.2.5
-      jiti: 1.9.2
+      jiti: 1.10.1
       magic-string: 0.25.7
       micromatch: 4.0.4
-      windicss: 3.0.12
+      windicss: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -112,8 +112,8 @@ packages:
     resolution: {integrity: sha512-2DtFcgT68wiTTiwZ2hNdJfcHNke9XOfnwmBRWXhmeKM8rF0TGwmC/Qto3S7RoZKp5cilZbxzO5iTNTQsJ+EeDg==}
     engines: {node: '>=8'}
     dependencies:
-      '@nodelib/fs.stat': 2.0.4
-      '@nodelib/fs.walk': 1.2.6
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.7
       glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.4
@@ -186,8 +186,8 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: true
 
-  /jiti/1.9.2:
-    resolution: {integrity: sha512-wymUBR/YGGVNVRAxX52yvFoZdUAYKEGjk0sYrz6gXLCvMblnRvJAmDUnMvQiH4tUHDBtbKHnZ4GT3R+m3Hc39A==}
+  /jiti/1.10.1:
+    resolution: {integrity: sha512-qux9juDtAC8HlZxAk/fku73ak4TWNLigRFTNzFShE/kw4bXVFsVu538vLXAxvNyPszXgpX4YxkXfwTYEi+zf5A==}
     hasBin: true
     dev: true
 
@@ -297,16 +297,16 @@ packages:
     hasBin: true
     dev: true
 
-  /vite-plugin-windicss/0.16.0_vite@2.3.3:
-    resolution: {integrity: sha512-XaYnPNKsq2yZ5Ph39ZmPvtsTheyVsGSXibTOq/kWCKcXyLxIinTL6xQvLsagjF8QzHpHPF4NbsFvvGtO81gxgA==}
+  /vite-plugin-windicss/1.0.1_vite@2.3.3:
+    resolution: {integrity: sha512-+6iFKUC00G9xkR967xqbbAquaWAmgYT1rlBP7Bp6XCd9ire3b7tJTETtwSPAPAIp38OA/Xbp1MSaHhbl2LRxJg==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 0.16.0
+      '@windicss/plugin-utils': 1.0.1
       chalk: 4.1.1
       debug: 4.3.2
       vite: 2.3.3
-      windicss: 3.0.12
+      windicss: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -324,8 +324,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /windicss/3.0.12:
-    resolution: {integrity: sha512-pDxtFLN0xmL7bnGtnEfu9z7B5279UM2EP8wWlPH+FYb5gjHyONxRtyWtR5QIn1FRx6h1UXpm+I19GgTx5Y4TyA==}
+  /windicss/3.1.1:
+    resolution: {integrity: sha512-vLtydYOqqLwb3Jg02QYqCnna1jONLt6GuDyAtRokQY81uA8BiOyN2y3ED9QGX28CIL5Zi7bpnkBL1f1g4CHuXQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
